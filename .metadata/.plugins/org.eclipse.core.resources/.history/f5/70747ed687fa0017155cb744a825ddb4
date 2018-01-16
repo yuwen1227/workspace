@@ -1,0 +1,17 @@
+package edu.fju.exam;
+
+import java.util.Scanner;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		System.out.println("請投入1'5'10元");
+		Scanner scanner = new Scanner(System.in);
+		String line = scanner.nextLine();
+		int money = Integer.parseInt(line);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package edu.fju.exam;
+
+import java.util.Scanner;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		Drink d1 = new Drink("a","10");
+	}
+
+}
