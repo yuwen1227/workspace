@@ -1,9 +1,9 @@
 package edu.fju.exam;
 
 public class Director extends Employee{
-		public Director(String name,int dollar){
+		public Director(String name,int dollar,int bonus){
 			super(name,dollar);
-			int bonus;
+			super(bonus);
 	}
 			public void print(){
 				System.out.println(name+"\t"+dollar+"\t"+bonus); 

@@ -1,0 +1,15 @@
+package edu.fju.exam;
+
+public class Director{
+	String name;
+	int dollar;
+	int bonus;
+		public Director(String name,int dollar,int bonus){
+			this.name=name;
+			this.dollar=dollar;
+			this.bonus=bonus;
+	}
+			public void print(){
+				System.out.println(name+"\t"+dollar+"\t"+bonus); 
+		}
+}
